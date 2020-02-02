@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [MICHAL KWAPISZ](https://up.htmlacademy.ru/htmlcss/27/user/1154985).
-* Наставник: [Антон Бабиля]  (https://htmlacademy.ru/profile/id416099)
+* Наставник: [Анатолий Долгов]  (https://htmlacademy.ru/profile/dolgov_anatoly)
 
 ---
 
