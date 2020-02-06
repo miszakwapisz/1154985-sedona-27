@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"PT Sans", Arial,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main-navigation{
+   font-size:14px;
+  line-height: 26px;
+  background-color: white;
+}
+.site-navigation {
+  list-style: none;
+}
+h1 {
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantage p {
+ line-height: 26px;
+  font-size: 14px;
+text-align: center;
+}
+.city {
+  background-color: #81b3d2;
+}
+.main-city {
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.city p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.benefits h2 {
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+.benefits-housing {
+  text-align: center;
+  color: #333333;
+  list-style: none;
+}
+.benefits-food {
+  text-align: center;
+  color: #333333;
+}
+.benefits-souvenirs {
+  text-align: center;
+  color: #333333;
+}
+.bridge {
+  background-color: #81b3d2;
+}
+.bridge h2 {
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.bridge p {
+  text-align: center;
+  color: #ffffff;
+}
+.article h2 {
+  font-size: 21px;
+  text-align: center;
+}
+.article p {
+  font-size: 14px;
+  text-align: center;
+}
+.reservation h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.reservation p {
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.contacts {
+  font-size:21px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.social-logo {
+  line-height: 26px;
+  text-align: center;
+}
