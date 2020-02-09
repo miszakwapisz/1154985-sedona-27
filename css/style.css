@@ -1,6 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family:"PT Sans", Arial,sans-serif;
   font-size: 14px;
   line-height: 21px;
@@ -11,30 +9,51 @@ body {
 a {
   text-decoration: none;
 }
-li {
-  list-style: none;
+
+.main-header {
+  height: 56px;
+  width: 100%;
+}
+
+.logo {
+  height:71px;
+  width: 140px;
+  position: absolute;
+  padding-left: 569px;
+  transform: translateX();
 }
 .main-navigation{
-   font-size:14px;
+  font-size:14px;
   line-height: 26px;
   background-color: white;
+
 }
 .site-navigation {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
+  height: 56px;
+  padding-left: 72px;
+  padding-right: 76px;
 }
+
 h1 {
   line-height: 26px;
   text-align: center;
 }
 
+
 .advantage p {
- line-height: 26px;
+  background-size: 300px;
+  line-height: 26px;
   font-size: 14px;
-text-align: center;
+  text-align: center;
 }
+
 .city {
   background-color: #81b3d2;
 }
+
 .main-city {
   font-size: 21px;
   line-height: 21px;
@@ -46,6 +65,8 @@ text-align: center;
   color: #ffffff;
 }
 
+
+}
 .benefits h2 {
   font-size: 21px;
   line-height: 21px;
@@ -59,10 +80,12 @@ text-align: center;
 .benefits-food {
   text-align: center;
   color: #333333;
+  list-style: none;
 }
 .benefits-souvenirs {
   text-align: center;
   color: #333333;
+  list-style: none;
 }
 .bridge {
   background-color: #81b3d2;
@@ -76,9 +99,14 @@ text-align: center;
   text-align: center;
   color: #ffffff;
 }
+.article {
+  list-style: none;
+}
+
 .article h2 {
   font-size: 21px;
   text-align: center;
+  list-style: none;
 }
 .article p {
   font-size: 14px;
@@ -99,9 +127,16 @@ text-align: center;
   font-size:21px;
   line-height: 26px;
   text-align: center;
+  list-style: none;
   background-color: #ffffff;
 }
 .social-logo {
   line-height: 26px;
   text-align: center;
+}
+.contacts img {
+  background-color: #333333;
+}
+.footer-social{
+  list-style: none;
 }
