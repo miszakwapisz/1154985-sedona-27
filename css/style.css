@@ -22,14 +22,12 @@ a {
   height:71px;
   width: 140px;
   position: absolute;
-  padding-left: 50%;
   transform: translateX(-50%);
 }
 
 .main-navigation{
-  font-size:14px;
-  line-height: 26px;
   background-color: #ffffff;
+  padding-right: 40px;
 }
 
 .site-navigation {
@@ -38,10 +36,14 @@ a {
   list-style: none;
   padding-left: 72px;
   padding-right: 76px;
+  padding-top: 22px;
+  margin: 0px;
+  padding-bottom: 22px;
 }
 
 .advantage{
   background-image: url("../img/fon.png");
+  background-repeat: no-repeat;
 }
 
 .advantage img {
@@ -51,7 +53,7 @@ a {
 
 h1 {
   line-height: 26px;
-  padding-top: 625px;
+  padding-top: 79px;
   padding-bottom: 38px;
 }
 
@@ -63,9 +65,6 @@ h1 {
 
 .city {
   background-color: #81b3d2;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
 }
 
 .main-city {
