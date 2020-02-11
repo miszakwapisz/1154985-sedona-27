@@ -10,10 +10,6 @@ body {
   text-align: center;
 }
 
-ul {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -23,6 +19,7 @@ a {
   width: 140px;
   position: absolute;
   transform: translateX(-50%);
+  left: 50%;
 }
 
 .main-navigation{
@@ -37,25 +34,22 @@ a {
   padding-left: 72px;
   padding-right: 76px;
   padding-top: 22px;
-  margin: 0px;
   padding-bottom: 22px;
+  margin: 0;
 }
 
 .advantage{
   background-image: url("../img/fon.png");
   background-repeat: no-repeat;
+  background-color: #81b3d2;
 }
 
 .advantage img {
-  padding-left:410px;
-  padding-top: 132px;
+  margin-top:132px;
+  padding-bottom:79px;
 }
 
-h1 {
-  line-height: 26px;
-  padding-top: 79px;
-  padding-bottom: 38px;
-}
+
 
 .advantage p {
   line-height: 26px;
@@ -79,6 +73,7 @@ h1 {
 .benefits ul {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .benefits h2 {
@@ -111,6 +106,10 @@ h1 {
   color: #ffffff;
 }
 
+.article ul {
+  list-style: none;
+}
+
 .article h2 {
   font-size: 21px;
 }
@@ -141,4 +140,8 @@ h1 {
 
 .contacts img {
   background-color: #333333;
+}
+
+.footer-social {
+  list-style: none;
 }
