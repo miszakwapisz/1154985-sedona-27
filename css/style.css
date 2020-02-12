@@ -49,48 +49,65 @@ a {
   padding-bottom:79px;
 }
 
+.advantage h1 {
+  background-color: #ffffff;
+  padding-top: 61px;
+  padding-bottom: 38px;
+  margin: 0;
 
+}
 
 .advantage p {
   line-height: 26px;
   font-size: 14px;
   padding-bottom: 56px;
+  background-color: #ffffff;
+  margin: 0;
 }
 
 .city {
-  background-color: #81b3d2;
+    background-color: #81b3d2;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    color: #ffffff;
+    padding-left: 60px;
 }
-
 .main-city {
+  padding-left: 20px;
+  padding-top: 46px;
+}
+.main-city h2 {
   font-size: 21px;
-  line-height: 21px;
-  color: #ffffff;
 }
-.city p {
-  color: #ffffff;
-}
+ .city img {
+   margin-left: 60px;
+ }
+
 
 .benefits ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-top: 62px;
+  margin-bottom: 87px;
 }
 
 .benefits h2 {
   font-size: 21px;
-  line-height: 21px;
 }
 .benefits-housing {
   color: #333333;
+  padding-right: 133px;
 }
 
 .benefits-food {
-  text-align: center;
   color: #333333;
 }
 
 .benefits-souvenirs {
   color: #333333;
+  padding-left:122px;
 }
 
 .bridge {
