@@ -1,0 +1,176 @@
+body {
+  font-family:"PT Sans", Arial,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height:71px;
+  width: 140px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.main-navigation{
+  background-color: #ffffff;
+  padding-right: 40px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 72px;
+  padding-right: 76px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin: 0;
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-color: #81b3d2;
+  padding-bottom: 31px;
+}
+
+.filter ul {
+  list-style:none;
+  display: flex;
+}
+
+.result {
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.result p {
+  font-size: 21px;
+  line-height: 26px;
+  padding-left: 72px;
+  padding-right: 49px;
+  padding-top: 31px;
+}
+
+.result ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding-top: 41px;
+  padding-bottom: 33px;
+}
+
+.hotel-amara {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 49px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.hotel-amara img {
+  padding-left: 72px;
+  padding-top: 32px;
+  position: absolute;
+}
+
+.hotel-amara h3 {
+  display: flex;
+  padding-left: 237px;
+  padding-top: 20px;
+}
+
+.hotel-amara-info {
+  display: none;
+  list-style: none;
+  padding-left: 237px;
+}
+
+.hotel-desert {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.hotel-desert img {
+  position: absolute;
+  padding-left: 72px;
+  padding-top: 30px;
+}
+
+.hotel-desert h3 {
+  display: flex;
+  padding-left: 237px;
+  padding-top: 20px;
+}
+
+.hotel-desert-info {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.hotel-Villas{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.hotel-Villas img {
+  position: absolute;
+  padding-left: 72px;
+  padding-top: 30px;
+}
+
+.hotel-Villas h3 {
+  display: flex;
+  padding-left: 237px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.hotel-Villas-info {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.contacts {
+  font-size:21px;
+  line-height: 26px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.contacts p {
+  padding-left: 132px;
+}
+
+.social-logo {
+  line-height: 26px;
+}
+
+.contacts img {
+  background-color: #333333;
+}
+
+.footer-social {
+  list-style: none;
+}
+

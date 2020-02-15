@@ -54,7 +54,6 @@ a {
   padding-top: 61px;
   padding-bottom: 38px;
   margin: 0;
-
 }
 
 .advantage p {
@@ -73,17 +72,19 @@ a {
     color: #ffffff;
     padding-left: 60px;
 }
+
 .main-city {
   padding-left: 20px;
   padding-top: 46px;
 }
+
 .main-city h2 {
   font-size: 21px;
 }
+
  .city img {
    margin-left: 60px;
  }
-
 
 .benefits ul {
   display: flex;
@@ -96,6 +97,7 @@ a {
 .benefits h2 {
   font-size: 21px;
 }
+
 .benefits-housing {
   color: #333333;
   padding-right: 133px;
@@ -112,6 +114,8 @@ a {
 
 .bridge {
   background-color: #81b3d2;
+  display: flex;
+  justify-content: center;
 }
 
 .bridge h2 {
@@ -123,8 +127,13 @@ a {
   color: #ffffff;
 }
 
+.article {
+  display: flex;
+}
 .article ul {
   list-style: none;
+  padding-top: 50px;
+  padding-bottom: 64px;
 }
 
 .article h2 {
@@ -133,6 +142,24 @@ a {
 
 .article p {
   font-size: 14px;
+}
+
+.article-area {
+  margin-left: 95px;
+  padding-right: 97px;
+  margin-right: 69px;
+}
+
+.article-tourist {
+  padding-right: 77px;
+  padding-left: 77px;
+  margin-left: 146px;
+}
+
+.reservation {
+  background-color: #ffffff;
+  padding-top: 57px;
+  padding-bottom: 52px;
 }
 
 .reservation h2 {
@@ -146,6 +173,7 @@ a {
 }
 
 .contacts {
+  display: flex;
   font-size:21px;
   line-height: 26px;
   background-color: #ffffff;
