@@ -24,74 +24,77 @@ a {
 
 .main-navigation{
   background-color: #ffffff;
-  padding-right: 40px;
 }
 
 .site-navigation {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
-  padding-left: 72px;
-  padding-right: 76px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  width: 1200px;
   margin: 0;
+}
+
+.site-navigation a {
+  display: block;
+  padding: 22px 22px;
+  width: 239px;
 }
 
 .advantage{
   background-image: url("../img/fon.png");
   background-repeat: no-repeat;
   background-color: #81b3d2;
+  width: 1200px;
 }
 
 .advantage img {
+  position: relative;
   margin-top:132px;
-  padding-bottom:79px;
+
 }
 
 .advantage h1 {
   background-color: #ffffff;
-  padding-top: 61px;
-  padding-bottom: 38px;
+  text-align: center;
+  padding-top: 59px;
+  padding-bottom: 20px;
   margin: 0;
-}
+ }
 
 .advantage p {
-  line-height: 26px;
-  font-size: 14px;
-  padding-bottom: 56px;
   background-color: #ffffff;
+  line-height: 26px;
+  padding-bottom: 39px;
   margin: 0;
 }
 
 .city {
     background-color: #81b3d2;
     display: flex;
-    justify-content: center;
     flex-direction: row-reverse;
     color: #ffffff;
-    padding-left: 60px;
 }
 
 .main-city {
-  padding-left: 20px;
-  padding-top: 46px;
+  width: 400px;
+  padding-top: 29px;
 }
 
 .main-city h2 {
   font-size: 21px;
 }
 
- .city img {
-   margin-left: 60px;
- }
+.main-city p {
+  padding-left: 39px;
+  padding-right: 39px;
+}
 
 .benefits ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-top: 62px;
-  margin-bottom: 87px;
+  margin-top: 41px;
+  margin-bottom: 66px;
 }
 
 .benefits h2 {
@@ -115,7 +118,6 @@ a {
 .bridge {
   background-color: #81b3d2;
   display: flex;
-  justify-content: center;
 }
 
 .bridge h2 {
@@ -127,13 +129,11 @@ a {
   color: #ffffff;
 }
 
-.article {
-  display: flex;
-}
 .article ul {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
-  padding-top: 50px;
-  padding-bottom: 64px;
+
 }
 
 .article h2 {
@@ -145,20 +145,22 @@ a {
 }
 
 .article-area {
-  margin-left: 95px;
-  padding-right: 97px;
-  margin-right: 69px;
+  width: 400px;
+  padding: 29px 65px 44px 74px;
+}
+.article-route {
+  width: 400px;
+  padding: 29px 48px 44px 48px;
 }
 
 .article-tourist {
-  padding-right: 77px;
-  padding-left: 77px;
-  margin-left: 146px;
+  width: 400px;
+  padding: 29px 56px 44px 56px;
 }
 
 .reservation {
   background-color: #ffffff;
-  padding-top: 57px;
+  padding-top: 37px;
   padding-bottom: 52px;
 }
 
