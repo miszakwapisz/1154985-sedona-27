@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family:"PT Sans", Arial,sans-serif;
   font-size: 14px;
@@ -8,6 +16,12 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding-left: 73px;
+  padding-right: 73px;
 }
 
 a {
@@ -44,18 +58,15 @@ a {
   background-image: url("../img/fon.png");
   background-repeat: no-repeat;
   background-color: #81b3d2;
-  width: 1200px;
 }
 
 .advantage img {
   position: relative;
-  margin-top:132px;
-
+  margin-top:160px;
 }
 
 .advantage h1 {
   background-color: #ffffff;
-  text-align: center;
   padding-top: 59px;
   padding-bottom: 20px;
   margin: 0;
@@ -69,24 +80,20 @@ a {
 }
 
 .city {
-    background-color: #81b3d2;
-    display: flex;
-    flex-direction: row-reverse;
-    color: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #81b3d2;
+  color: #ffffff;
 }
 
 .main-city {
-  width: 400px;
-  padding-top: 29px;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 
 .main-city h2 {
   font-size: 21px;
-}
-
-.main-city p {
-  padding-left: 39px;
-  padding-right: 39px;
 }
 
 .benefits ul {
@@ -103,16 +110,18 @@ a {
 
 .benefits-housing {
   color: #333333;
-  padding-right: 133px;
+  width: 255px;
 }
 
 .benefits-food {
   color: #333333;
+  width: 290px;
 }
 
 .benefits-souvenirs {
   color: #333333;
-  padding-left:122px;
+  width: 280px;
+  margin-right: 65px;
 }
 
 .bridge {
@@ -120,12 +129,15 @@ a {
   display: flex;
 }
 
-.bridge h2 {
-  font-size: 21px;
+.bridge-info {
+  width: 305px;
+  margin: 0 auto;
+  padding-top: 50px;
   color: #ffffff;
 }
 
-.bridge p {
+.bridge h2 {
+  font-size: 21px;
   color: #ffffff;
 }
 
@@ -133,52 +145,58 @@ a {
   display: flex;
   justify-content: space-between;
   list-style: none;
-
+  padding-top: 50px;
 }
 
 .article h2 {
   font-size: 21px;
 }
 
-.article p {
-  font-size: 14px;
-}
-
 .article-area {
-  width: 400px;
-  padding: 29px 65px 44px 74px;
+  width: 208px;
 }
 .article-route {
-  width: 400px;
-  padding: 29px 48px 44px 48px;
+  width: 270px;
 }
 
 .article-tourist {
-  width: 400px;
-  padding: 29px 56px 44px 56px;
+  width: 250px;
 }
 
 .reservation {
   background-color: #ffffff;
-  padding-top: 37px;
-  padding-bottom: 52px;
 }
 
 .reservation h2 {
   font-size: 30px;
   line-height: 36px;
+  padding-top: 50px;
 }
 
 .reservation p {
   line-height: 24px;
   color: #333333;
+  width: 440px;
+  margin-left: 380px;
+  padding-bottom: 55px;
+}
+
+.search {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-top: 37px;
+  margin: 0;
 }
 
 .contacts {
-  display: flex;
   font-size:21px;
   line-height: 26px;
-  background-color: #ffffff;
+  width: 230px;
 }
 
 .social-logo {
@@ -189,6 +207,17 @@ a {
   background-color: #333333;
 }
 
+.footer-social li {
+  margin: 6px;
+  width: 45px;
+  height: 45px;
+  background-color: #81b3d2;
+}
+
 .footer-social {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
 }
+
+
