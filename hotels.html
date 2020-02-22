@@ -8,15 +8,17 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="main-header">
+<header>
   <nav class="main-navigation">
     <img class="logo" src="img/logo.svg" width="140" height="72" alt="sedona">
-    <ul class="site-navigation">
-      <li><a href="index.html">ИНФОРМАЦИЯ</a></li>
-      <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
-      <li><a href="map.html">КАРТА ШТАТА</a></li>
-      <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
-    </ul>
+    <div class="container">
+      <ul class="site-navigation">
+        <li><a href="index.html">ИНФОРМАЦИЯ</a></li>
+        <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
+        <li><a href="map.html">КАРТА ШТАТА</a></li>
+        <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+      </ul>
+    </div>
   </nav>
 </header>
 <main>
@@ -73,53 +75,85 @@
     </ul>
   </section>
   <section class="hotel-amara">
-    <h3>Amara Resort & Spa</h3>
-    <img src="img/hotel-picture.jpg" width="135" height="90" alt="Amara Resort & Spa">
-    <ul class="hotel-amara-info">
-      <li>Гостиница</li>
-      <li>От 4000 Р.</li>
-    </ul>
-    <p>Рейтинг: 8,5</p>
-    <a href="#">Подробнее</a>
-    <a href="#">Забронировать</a>
+    <div class="container">
+      <div class="hotels-wrapper">
+        <img src="img/hotel-picture.jpg" width="135" height="90" alt="Amara Resort & Spa">
+        <ul class="hotel-amara-info">
+          <li><h3>Amara Resort & Spa</h3></li>
+          <li>Гостиница От 4000 Р.</li>
+          <li><a href="#">Подробнее</a><a href="#">Забронировать</a></li>
+        </ul>
+        <div class="rating">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p>Рейтинг: 8,5</p>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="hotel-desert">
-    <h3>Desert Quail Inn</h3>
-    <img src="img/hotel-2.jpg" width="135" height="90">
-    <ul class="hotel-desert-info">
-      <li>Мотель</li>
-      <li>От 3000 Р.</li>
-    </ul>
-    <p>Рейтинг: 8,9</p>
-    <a href="#">Подробнее</a>
-    <a href="#">Забронировать</a>
+    <div class="container">
+      <div class="hotels-wrapper">
+        <img src="img/hotel-2.jpg" width="135" height="90">
+        <ul class="hotel-desert-info">
+          <li><h3>Desert Quail Inn</h3></li>
+          <li>Мотель От 3000 Р.</li>
+          <li><a href="#">Подробнее</a><a href="#">Забронировать</a></li>
+        </ul>
+        <div class="rating">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>Рейтинг: 8,9</p>
+        </div>
+      </div>
+    </div>
   </section>
-  <section class=" hotel-Villas">
-    <h3>Villas at Poco Diablo</h3>
-    <img src="img/hotel-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
-    <ul class="hotel-Villas-info">
-      <li>Апартаменты</li>
-      <li>От 2000 Р.</li>
-    </ul>
-    <p>Рейтинг: 9,2</p>
-    <a href="#">Подробнее</a>
-    <a href="#">Забронировать</a>
+  <section class="hotel-villas">
+    <div class="container">
+      <div class="hotels-wrapper">
+        <img src="img/hotel-3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
+        <ul class="hotel-villas-info">
+          <li><h3>Villas at Poco Diablo</h3></li>
+          <li>Апартаменты От 2000 Р.</li>
+          <li><a href="#">Подробнее</a><a href="#">Забронировать</a></li>
+        </ul>
+        <div class="rating">
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>Рейтинг: 9,2</p>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
-  <footer class="container">
-    <div class="contacts">
-      <p>#visitSEDONA</p>
-      <p>Тел: +7(495) 666-02-66</p>
+<footer class="footer-info">
+  <div class="container">
+    <div class="hotels-wrapper">
+      <div class="contacts">
+        <p>#visitSEDONA</p>
+        <p>Тел: +7(495) 666-02-66</p>
+      </div>
+      <ul class="footer-social">
+        <li class="social-button"><a href="https://twitter.com/"><img src="img/tw-icon.svg" width="17" height="15" alt="TWITTER" ></a>
+        </li>
+        <li class="social-button"><a href="https://facebook.com"><img src="img/fb-icon.svg" width="12" height="22" alt="FACEBOOK"></a></li>
+        <li class="social-button"><a href="https://youtube.com"><img src="img/youtube-icon.svg" width="20" height="16" alt="YOUTUBE"></a></li>
+      </ul>
+      <p class="social-logo">Website by
+        <a href="https://htmlacademy.ru"><img src="img/logo-htmla.svg" width="115" height="41" alt="HTML ACADEMY"></a>
+      </p>
     </div>
-  <ul class="footer-social">
-    <li class="social-button"><a href="https://twitter.com/"><img src="img/tw-icon.svg" width="17" height="15" alt="TWITTER" ></a>
-    </li>
-    <li class="social-button"><a href="https://facebook.com"><img src="img/fb-icon.svg" width="12" height="22" alt="FACEBOOK"></a></li>
-    <li class="social-button"><a href="https://youtube.com"><img src="img/youtube-icon.svg" width="20" height="16" alt="YOUTUBE"></a></li>
-  </ul>
-  <p class="social-logo">Website by
-    <a href="https://htmlacademy.ru"><img src="img/logo-htmla.svg" width="115" height="41" alt="HTML ACADEMY"></a>
-  </p>
+  </div>
 </footer>
 </body>
 </html>

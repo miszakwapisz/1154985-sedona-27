@@ -8,16 +8,18 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-  <header class="main-header">
-        <nav  class="main-navigation">
-            <img class="logo" src="img/logo.svg" width="140" height="72" alt="sedona">
-       <ul class="site-navigation">
-          <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-          <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
-          <li><a href="map.html">КАРТА ШТАТА</a></li>
-          <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
-        </ul>
-        </nav>
+  <header>
+    <nav class="main-navigation">
+      <img class="logo" src="img/logo.svg" width="140" height="72" alt="sedona">
+          <div class="container">
+            <ul class="site-navigation">
+              <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+              <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
+              <li><a href="map.html">КАРТА ШТАТА</a></li>
+              <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+            </ul>
+          </div>
+    </nav>
   </header>
       <main>
         <section class="advantage ">
@@ -32,9 +34,9 @@
                <p>— №1 —</p>
                <p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
              </div>
-        </section>
+          </section>
           <section class="benefits">
-              <ul>
+            <ul>
               <li class="benefits-housing">
                   <img src="img/hous.svg" width="75" height="72" alt="ЖИЛЬЁ">
                   <h2>ЖИЛЬЁ</h2>
@@ -43,15 +45,15 @@
                   <li class="benefits-food">
                     <img src="img/food.svg" width="74" height="70" alt="ЕДА">
                         <h2>ЕДА</h2>
-                      <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+                          <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
                   </li>
                   <li class="benefits-souvenirs">
                       <img src="img/souvenirs.svg" width="64" height="76" alt="СУВЕНИРЫ">
                         <h2>СУВЕНИРЫ</h2>
                         <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
                   </li>
-                   </ul>
-           </section>
+            </ul>
+          </section>
           <section class="bridge">
               <img src="img/bridge.jpg" width="800" height="256" alt="МОСТ">
             <div class="bridge-info">
@@ -88,21 +90,28 @@
             <p class="search"><input type="button" value="ПОИСК ГОСТИНИЦЫ В седоне"></p>
           </form>
           </section>
+        <section class="map">
+          <img src="img/map.jpg" width="1200" height="594">
+        </section>
       </main>
-            <footer class="container">
-              <div class="contacts">
-                <p>#visitSEDONA</p>
-                <p>Тел: +7(495) 666-02-66</p>
-              </div>
-              <ul class="footer-social">
-                <li class="social-button"><a href="https://twitter.com/"><img src="img/tw-icon.svg" width="17" height="15" alt="TWITTER" ></a>
-                </li>
-                <li class="social-button"><a href="https://facebook.com"><img src="img/fb-icon.svg" width="12" height="22" alt="FACEBOOK"></a></li>
-                <li class="social-button"><a href="https://youtube.com"><img src="img/youtube-icon.svg" width="20" height="16" alt="YOUTUBE"></a></li>
-              </ul>
-              <p class="social-logo">Website by
-                <a href="https://htmlacademy.ru"><img src="img/logo-htmla.svg" width="115" height="41" alt="HTML ACADEMY"></a>
-              </p>
-            </footer>
+    <footer class="footer-info">
+      <div class="container">
+        <div class="hotels-wrapper">
+          <div class="contacts">
+            <p>#visitSEDONA</p>
+            <p>Тел: +7(495) 666-02-66</p>
+          </div>
+          <ul class="footer-social">
+            <li class="social-button"><a href="https://twitter.com/"><img src="img/tw-icon.svg" width="17" height="15" alt="TWITTER" ></a>
+            </li>
+            <li class="social-button"><a href="https://facebook.com"><img src="img/fb-icon.svg" width="12" height="22" alt="FACEBOOK"></a></li>
+            <li class="social-button"><a href="https://youtube.com"><img src="img/youtube-icon.svg" width="20" height="16" alt="YOUTUBE"></a></li>
+          </ul>
+          <p class="social-logo">Website by
+            <a href="https://htmlacademy.ru"><img src="img/logo-htmla.svg" width="115" height="41" alt="HTML ACADEMY"></a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
