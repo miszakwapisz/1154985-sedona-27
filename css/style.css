@@ -48,7 +48,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0;
-
 }
 
 .site-navigation a {
@@ -188,9 +187,17 @@ a {
   margin: 0;
 }
 .map {
-  margin: 0 auto;
+  background-color: #81b3d2;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  width: 100%;
 }
-
+.polygon {
+  background-image: url("../img/polygon.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 59px;
+}
 .footer-info {
   background-color: #ffffff;
   margin: 0 auto;
@@ -221,64 +228,48 @@ a {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .hotels-wrapper {
   display: flex;
-  justify-content: space-between;
-}
-.hotel-amara img {
- margin: 0 auto;
+  justify-content: flex-start;
 }
 
-.hotel-amara {
+.hotels {
   background-color: #ffffff;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
-.hotel-amara-info {
-  list-style: none;
+.hotels-info {
   width: 280px;
   margin: 0;
-  margin-right: 500px;
+  margin-right: auto;
+  margin-left: 31px;
+  padding: 0;
+  text-align: left;
 }
 
 .rating {
   width: 120px;
 }
 .rating ul {
- display: flex;
+  display: flex;
   justify-content: space-between;
 }
-.hotel-desert {
-  background-color: #ffffff;
-  margin: 0;
-  border-bottom: 1px solid #f2f2f2;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.hotels-info a {
+  margin-right: 7px;
 }
 
-.hotel-desert-info {
-  width: 265px;
-  list-style: none;
+.hotels-info h3 {
   margin: 0;
-  margin-right: 520px;
 }
-.hotel-villas {
-  background-color: #ffffff;
-  margin: 0;
-  border-bottom: 1px solid #f2f2f2;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.span {
+  margin-left: 10px;
 }
 
-.hotel-villas-info {
-  width: 260px;
-  list-style: none;
-  margin: 0;
-  margin-right: 520px;
-}
