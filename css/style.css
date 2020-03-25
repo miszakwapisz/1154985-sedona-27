@@ -28,6 +28,16 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+
 .logo {
   height:71px;
   width: 140px;
@@ -630,8 +640,26 @@ button:active {
   padding-left: 55px;
 }
 
-.login-checkbox {
-  position: relative;
-  padding-left: 30px;
-  cursor: pointer;
+.option {
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+.check {
+  padding-left: 1.2em;
+}
+
+.check_input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.check_box {
+  position: absolute;
+  margin-left: -1.2em;
+  width: 1em;
+  height: 1em;
+  border: 2px solid #000000;
 }
