@@ -489,20 +489,7 @@ button:active {
 
 .logo-HTML {
   line-height: 26px;
-  margin-top: 40px;
-}
-
-.logo-HTMLimg:hover {
-  fill: #81b3d2;
-}
-
-.logo-HTML p {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.logo-HTML a {
-  margin: 0 auto;
+  width: 200px;
 }
 
 .site-navigation a:hover {
@@ -518,20 +505,12 @@ button:active {
 }
 
 .assets-up {
-  background-image: url("../img/icon-up-dir.svg");
-  background-repeat: no-repeat;
   width: 11px;
   height: 10px;
   margin: 0 auto ;
 }
 
-.assets img:hover {
-
-}
-
 .assets-down {
-  background-image: url("../img/icon-down-dir.svg");
-  background-repeat: no-repeat;
   width: 11px;
   height: 10px;
   margin: 0 auto;
@@ -540,6 +519,20 @@ button:active {
   margin: 0 ;
 }
 
+.assets-up:hover path {
+  fill:#000000;
+}
+.assets-down:hover path {
+  fill: #000000;
+}
+
+.assets-up:active path {
+  fill: #81b3d2;
+}
+
+.assets-down:active path {
+  fill: #81b3d2;
+}
 .assets ul {
   width: 35px;
 }
@@ -556,3 +549,27 @@ button:active {
   color: #000000;
 }
 
+.logo-HTML:hover path {
+  fill: #81b3d2;
+}
+
+.logo-HTML:active path {
+  fill: #bdbbbc;
+}
+.logo-HTML svg {
+  width: 115px;
+  height: 41px;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.modal {
+  width: 568px;
+  height: 395px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 2170px;
+}
